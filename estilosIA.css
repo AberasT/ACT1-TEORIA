@@ -71,3 +71,38 @@ button {
 .nav-link:hover {
     text-decoration: underline; /* Subrayado al pasar el ratón sobre los enlaces */
 }
+
+/* Estilos para los recuadros de plantas */
+.planta-box {
+    width: 300px; /* Ancho máximo del recuadro */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde del recuadro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del recuadro */
+    text-align: center;
+    margin: 10px; /* Espacio entre los recuadros */
+    background-color: #fff; /* Color de fondo del recuadro */
+}
+
+.planta-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.planta-box h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.info-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.info-link:hover {
+    background-color: #444;
+}
