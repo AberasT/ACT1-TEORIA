@@ -74,13 +74,15 @@ button {
 
 /* Estilos para los recuadros de plantas */
 .planta-box {
-    width: 300px; /* Ancho máximo del recuadro */
+    width: 300px;
     padding: 20px;
-    border: 1px solid #ccc; /* Borde del recuadro */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del recuadro */
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 10px; /* Espacio entre los recuadros */
-    background-color: #fff; /* Color de fondo del recuadro */
+    margin: 10px;
+    background-color: #fff;
+    display: inline-block; /* Alineación horizontal */
+    vertical-align: top; /* Evita que los recuadros se alineen en la parte inferior */
 }
 
 .planta-box img {
@@ -104,5 +106,44 @@ button {
 }
 
 .info-link:hover {
+    background-color: #444;
+}
+
+/* Estilos para el formulario de contacto */
+.formulario-contacto {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario-contacto label,
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formulario-contacto input[type="text"],
+.formulario-contacto input[type="email"],
+.formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.formulario-contacto textarea {
+    resize: vertical;
+}
+
+.formulario-contacto button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
     background-color: #444;
 }
