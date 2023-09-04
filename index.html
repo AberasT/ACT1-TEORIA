@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Mi Sitio de Plantas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#plantas">Plantas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#informacion">Información del Sitio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="plantas">
+        <h1>Plantas</h1>
+        <div>
+            <select>
+                <option value="interior">Plantas de Interior</option>
+                <option value="exterior">Plantas de Exterior</option>
+            </select>
+            <button id="descargarPDF">Descargar PDF</button>
+        </div>
+        <div id="plantas-lista">
+            <!-- Aquí se mostrarán las plantas correspondientes -->
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="informacion">
+        <h1>Información del Sitio</h1>
+        <p>Este sitio es mantenido por [Tu Nombre].</p>
+    </section>
+</body>
+</html>
